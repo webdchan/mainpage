@@ -83,6 +83,9 @@ $(document).ready(function(){
     $(".sd_d4").click(function(){
       $("html,body").stop(true,true).animate({scrollTop:"4300"},"easeOutCirc");
     });
+    $("#top_btn").click(function(){
+      $("html,body").stop(true,true).animate({scrollTop:"0"},"easeOutCirc");
+    });
 
   /* 비주얼 슬라이드 */
   let img_w = $(".visual_on ul li").width(); //이미지의 가로너비
